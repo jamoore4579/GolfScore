@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 
 class Courses(models.Model):
+    
     Course_List = [
         ('noble hawk', 'Noble Hawk'),
         ('eel river', 'Eel River'),
@@ -10,7 +11,7 @@ class Courses(models.Model):
     ]
     
     CourseId = models.AutoField(primary_key=True)
-    CourseName = models.CharField(max_length=20, choices=Course_List),
+    CourseName = models.CharField(max_length=20, choices=Course_List)
 
 class Scores(models.Model):
     ScoresId = models.AutoField(primary_key=True)
