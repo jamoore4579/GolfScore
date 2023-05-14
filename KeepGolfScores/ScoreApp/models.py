@@ -30,7 +30,7 @@ class Scores(models.Model):
     Hole12 = models.CharField(max_length=2)
     Hole13 = models.CharField(max_length=2)
     Hole14 = models.CharField(max_length=2)
-    Hole14 = models.CharField(max_length=2)
     Hole15 = models.CharField(max_length=2)
+    Hole16 = models.CharField(max_length=2)
     Hole17 = models.CharField(max_length=2)
     Hole18 = models.CharField(max_length=2)
